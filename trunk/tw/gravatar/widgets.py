@@ -17,7 +17,6 @@ class Gravatar(Widget):
     # x: may contain hardcore sexual imagery or extremely disturbing violence
 
     params = {
-          "email": "email adress associated to a gravatar",
           "uri": "http adress of the gravatar",
           "size": "size in pixels of the expected image",
           "rating": "a string chosen from 'G', 'PG' 'R' or 'X'",
@@ -27,7 +26,6 @@ class Gravatar(Widget):
     size = 32
     rating = 'G'
     uri = ''
-    email = ''
     default = 'identicon'
 
     def __init__(self, id=None, parent=None, children=[], **kw):
@@ -39,5 +37,6 @@ class Gravatar(Widget):
         super(Gravatar, self).__init__(id, parent, children, **kw)
 
     def update_params(self, d):
-        d['uri'] = get_uri(d['email'], default=self.default, size=self.size, rating=self.rating, border="f00")
+        email = d.get('email', "waitfor.me@somewhere.com") # for sample purpose
+        d['uri'] = get_uri(email, default=self.default, size=self.size, rating=self.rating, border="f00")
         super(Gravatar, self).update_params(d)

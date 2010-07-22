@@ -11,4 +11,4 @@ from tw.gravatar import Gravatar
 class DemoGravatar(Gravatar):
     # Provide default parameters, value, etc... here
     # default = <some-default-value>
-    pass
+    demo_for = Gravatar
