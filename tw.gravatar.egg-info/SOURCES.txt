@@ -1,6 +1,16 @@
+.project
+.pydevproject
+CHANGES.txt
+Contributors.txt
 MANIFEST.in
+README.txt
 setup.cfg
 setup.py
+.settings/org.eclipse.core.resources.prefs
+docs/conf.py
+docs/index.rst
+tests/__init__.py
+tests/test_widget.py
 tw/__init__.py
 tw.gravatar.egg-info/PKG-INFO
 tw.gravatar.egg-info/SOURCES.txt
@@ -12,6 +22,8 @@ tw.gravatar.egg-info/paster_plugins.txt
 tw.gravatar.egg-info/requires.txt
 tw.gravatar.egg-info/top_level.txt
 tw/gravatar/__init__.py
+tw/gravatar/cache.py
+tw/gravatar/gravatar.py
 tw/gravatar/release.py
 tw/gravatar/samples.py
 tw/gravatar/widgets.py
