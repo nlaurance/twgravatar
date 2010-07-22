@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+tw/__init__.py
+tw.gravatar.egg-info/PKG-INFO
+tw.gravatar.egg-info/SOURCES.txt
+tw.gravatar.egg-info/dependency_links.txt
+tw.gravatar.egg-info/entry_points.txt
+tw.gravatar.egg-info/namespace_packages.txt
+tw.gravatar.egg-info/not-zip-safe
+tw.gravatar.egg-info/paster_plugins.txt
+tw.gravatar.egg-info/requires.txt
+tw.gravatar.egg-info/top_level.txt
+tw/gravatar/__init__.py
+tw/gravatar/release.py
+tw/gravatar/samples.py
+tw/gravatar/widgets.py
