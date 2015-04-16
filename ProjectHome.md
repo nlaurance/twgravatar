@@ -1,0 +1,1 @@
+insert a gravatar image in your templates as easily as ${h.gravatar(email='your.name@domain.com')}
